@@ -10,24 +10,35 @@ body {
 
 header {
     width: 90%;
+    margin: 1.5% 0% 2% 0%;
     display: flex;
     align-items: center;
-    transform: rotate(4deg);    
+    transform: rotate(1deg);
     background-color: rgb(198, 43, 146);
 }
 
 .header-image {
-    transform: rotate(-8deg);    
+    transform: rotate(-8deg);
 }
 
 h1 {
-    width: aut;
     margin: auto;
     font-family: 'Amatic SC';
-    font-size: 11em;
-    transform: rotate(-5deg);
+    font-size: 10em;
+    transform: rotate(-3deg);
     color: rgb(255, 242, 0);
     background-color: rgb(163, 53, 159);
 }
 
+.slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
 
+.slider__cards {
+    overflow: hidden;
+}
